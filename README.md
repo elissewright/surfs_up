@@ -1,10 +1,11 @@
 # **Surfs Up: Analyzing Weather Data With Python and SQLAlchemy** 
 ## **Overview:**
-### The purpose of the analysis is well defined
+### This analysis was performed on behalf of a client in order to evaluate monthly temperature trends in Oahu, in order to determine the viability of opening a local surf business and operating it year-round. We used a combination of Python, pandas, and SQLAlchemy, along with a weather station database, to retrieve and compare temperature data from June and December in Oahu. Summary statistics generated for each month included average, minimum, and maximum temperatures, as well as quartiles and standard deviation.  
 ## **Results:**
-### There is a bulleted list that addresses the three key differences in weather between June and December
-*
-*
-*
+* Across 1700 observations, the average temperature in June was 74.9 degrees Fahrenheit, compared to a December mean of 71.0, across 1517 observations. 
+* The minimum and maximum temperatures observed in June were 64 and 85 degrees, respectively. This compares to a wider ranging, yet still relatively moderate low of 56 and high of 83 for the month of December. 
+* Standard deviation of temperatures was 3.26 for June, and 3.75 for December. These are both average deviations and suggest that temperature spread for both months tends to remain close to the mean observations.
 ## **Summary:**
 ### There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December
+### Our temperature data suggests that average temperatures in Oahu do not vary meaningfully between June and December, nor do they tend to significantly deviate from these averages. While these findings support Oahu as a good location for a permanent surf shop, data on other weather trends and additional observations could provide more evidence. 
+### Regardless of how moderate temperatures are year-round, heavy rain can negatively impact tourism and deter even the most devoted surfers from hitting the waves. In order to help investors determine the viability of a surf shop, two additional queries could be performed to retrieve data on precipitation levels and evaluate summary statistics for the months of June and December. Temperatures and rainfall may also vary by geographic location across the island; additional queries may also retrieve and compare summary statistics for December temperature and rain levels across individual weather stations in order to further determine which specific locations would be best suited to a surf shop.   
