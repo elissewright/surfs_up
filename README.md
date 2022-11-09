@@ -2,6 +2,8 @@
 ## **Overview:**
 ### This analysis was performed on behalf of a client in order to evaluate monthly temperature trends in Oahu, in order to determine the viability of opening a local surf business and operating it year-round. We used a combination of Python, pandas, and SQLAlchemy, along with a weather station database, to retrieve and compare temperature data from June and December in Oahu. Summary statistics generated for each month included average, minimum, and maximum temperatures, as well as quartiles and standard deviation.  
 ## **Results:**
+![June Temperatures](https://github.com/elissewright/surfs_up/blob/main/june_temps.png)
+![December Temperatures](https://github.com/elissewright/surfs_up/blob/main/december_temps.png)
 * Across 1700 observations, the average temperature in June was 74.9 degrees Fahrenheit, compared to a December mean of 71.0, across 1517 observations. 
 * The minimum and maximum temperatures observed in June were 64 and 85 degrees, respectively. This compares to a wider ranging, yet still relatively moderate low of 56 and high of 83 for the month of December. 
 * Standard deviation of temperatures was 3.26 for June, and 3.75 for December. These are both average deviations and suggest that temperature spread for both months tends to remain close to the mean observations.
